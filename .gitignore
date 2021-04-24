@@ -14,6 +14,7 @@
 /rust/examples-frontend/*/node_modules
 /rust/examples-frontend/*/package-lock.json
 /target
+/Cargo.lock
 
 ## Worker.
 /worker/scripts/node_modules
@@ -30,6 +31,24 @@
 # Ignore all fuzzer generated test inputs.
 /worker/fuzzer/new-corpus/*
 !/worker/fuzzer/new-corpus/.placeholder
+
+# Vim temporal files.
+*.swp
+*.swo
+
+# Mac Stuff.
+.DS_Store
+
+
+
+/worker/.vs/
+build
+
+# Vistual Studio Code stuff.
+/.vscode/
+
+# JetBrains IDE stuff.
+/.idea/
 
 ## Others.
 /coverage
